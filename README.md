@@ -1,6 +1,6 @@
 # # Prueba Equifax
 
-Se desarrollo unas prueba automatizadas para demostrar los skills de programacion para la creacion de scripts automatizados 
+Se desarrollo unas pruebas automatizadas para demostrar los skills de programacion para la creacion de scripts automatizados 
 
 ## Comenzando 🚀
 
