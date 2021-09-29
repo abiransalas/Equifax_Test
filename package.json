@@ -1,0 +1,19 @@
+{
+  "name": "Cypress_Equifax",
+  "version": "1.0.0",
+  "description": "Prueba Equifax",
+  "main": "index.js",
+  "scripts": {
+    "test-login": "cypress run --headed --browser chrome --spec **/Login.feature",
+    "test-buyitem": "cypress run --headed --browser chrome --spec **/BuyItem.feature"
+  },
+  "author": "Abiran Salas",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
