@@ -4,8 +4,9 @@
   "description": "Prueba Equifax",
   "main": "index.js",
   "scripts": {
-    "test-login": "cypress run --headed --browser chrome --spec **/Login.feature",
-    "test-buyitem": "cypress run --headed --browser chrome --spec **/BuyItem.feature"
+    "test-login": "cypress run --headed --spec **/Login.feature",
+    "test-buyitem": "cypress run --headed --spec **/BuyItem.feature",
+    "test-features": "cypress run --headed --spec **/*.feature"
   },
   "author": "Abiran Salas",
   "license": "ISC",
